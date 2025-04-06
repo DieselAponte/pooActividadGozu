@@ -1,0 +1,8 @@
+05/06/2025;Cumple Gianny;WEEKLY;gianny.romie@gmail.com;1
+05/06/2025;cumpleaños Alejandra;MONTHLY;gianny.romie@gmail.com;1
+05/06/2025;matrimonio Gianny;WEEKLY;gianny.romie@gmail.com;1
+05/06/2025;Cumple;DAILY;mama.alfaro@gmail.com;1
+05/06/2025;despedida;MONTHLY;carolina.rup@gmail.com;1
+05/06/2025;Cumpleaños Julio;MONTHLY;gianny.romie@gmail.com;1
+05/06/2025;cumple tio Julio;WEEKLY;gianny.alfaro@gmail.com;1
+05/06/2025;fiesta trujillana;WEEKLY;gianny.alfaro@usil.pe;1
