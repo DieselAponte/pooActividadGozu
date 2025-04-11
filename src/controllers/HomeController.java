@@ -4,7 +4,7 @@ import core.Controller;
 import views.EventListView;
 import views.HomeView;
 import views.NewEventView;
-
+import views.RegistrarInvitadoView;
 
 /**
  * Main controller. It will be responsible for program's main screen behavior.
@@ -13,7 +13,7 @@ public class HomeController extends Controller
 {
     private final NewEventController newEventController = new NewEventController();
     private final EventListController eventListController = new EventListController();
-
+    private final RegistrarInvitadoController registrarInvitadoController = new RegistrarInvitadoController();
     //-----------------------------------------------------------------------
     //		Methods
     //-----------------------------------------------------------------------
@@ -23,6 +23,7 @@ public class HomeController extends Controller
         // Initializes others controllers
         newEventController.run();
         eventListController.run();
+        registrarInvitadoController.run();
 
         // Initializes HomeView
         //-----------------------------------------------------------------------
@@ -49,6 +50,8 @@ public class HomeController extends Controller
     {
         return eventListController.getView();
     }
+
+    public RegistrarInvitadoView getRegistrarInvitadoView(){return registrarInvitadoController.getView();}
 
     public void listEvents()
     {

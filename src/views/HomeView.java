@@ -27,7 +27,7 @@ public class HomeView extends JPanel implements View
     private final HomeController homeController;
     private final JFrame mainFrame;
     private final static int MAIN_FRAME_WIDTH = 800;
-    private final static int MAIN_FRAME_HEIGHT = 350;
+    private final static int MAIN_FRAME_HEIGHT = 500;
     private final static int MAIN_FRAME_X = 100;
     private final static int MAIN_FRAME_Y = 100;
 
@@ -86,6 +86,7 @@ public class HomeView extends JPanel implements View
         JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
         tabbedPane.addTab("New event", homeController.getNewEventView());
         tabbedPane.addTab("Events", homeController.getEventListView());
+        tabbedPane.addTab("Registrar Invitado", homeController.getRegistrarInvitadoView());
         add(tabbedPane, BorderLayout.CENTER);
 
         //add the Listener
